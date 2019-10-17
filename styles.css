@@ -3,6 +3,7 @@
   --white: #fff;
   --red: #e21838;
   --green: #32a852;
+  --dkgreen: #00701e;
   --transition-delay: 0.85s;
   --transition-delay-step: 0.3s;
 }
@@ -62,6 +63,12 @@ button {
   transition: color 0.3s;
 }
 
+.small-icon {
+  max-width: 50px;
+  /* width: 30px; */
+  height: 30px;
+}
+
 .heading {
   top: 50%;
   left: 50%;
@@ -81,6 +88,12 @@ button {
   left: 0;
   transform: translateX(100%);
   transition: transform 1s;
+}
+
+.skills-close {
+  margin: 20px;
+  top: 0;
+  right: 0;
 }
 
 [data-slideIn="to-top"] {
@@ -251,4 +264,8 @@ button {
 
 .bg-green {
   background: var(--green);
+}
+
+.bg-dkgreen {
+  background: var(--dkgreen)
 }
