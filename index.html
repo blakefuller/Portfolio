@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body class="position-fixed d-flex flex-column text-white bg-green">
+    <header class="page-header">
+      <nav class="d-flex justify-content-between">
+        <a href="" class="logo">blake fuller</a>
+        <ul>
+          <li><a id="skills" href="">skills</a></li>
+          <li><a href="https://github.com/blakefuller" target="_blank">github</a></li>
+          <li><a href="http://linkedin.com/in/blakefuller" target="_blank">linkedin</a></li>
+          <!-- possibly more items here -->
+        </ul>
+      </nav>
+    </header>
+    <h1 class="position-absolute w-100 text-center heading">I write code sometimes</h1>
+    <a href="" class="position-absolute contact">email</a>
+
+    <section class="position-absolute d-flex align-items-center justify-content-center text-black bg-white skills-section" data-slideIn="to-top">
+      <button id="close" class="position-absolute skills-close" aria-label="Close Skills Section">✕</button>
+      <div class="d-flex chart-wrapper">
+        <ul class="chart-levels">
+          <li>Expert</li>
+          <li>Advanced</li>
+          <li>Intermediate</li>
+          <li>Beginner</li>
+          <li>Novice</li>
+        </ul>
+        <ul class="d-flex justify-content-around align-items-end flex-grow-1 text-center bg-black chart-skills">
+          <li class="position-relative bg-green" data-height="80%">
+            <span class="position-absolute w-100">Python</span>
+          </li>
+          <li class="position-relative bg-green" data-height="60%">
+            <span class="position-absolute w-100">C++</span>
+          </li>
+          <li class="position-relative bg-green" data-height="70%">
+            <span class="position-absolute w-100">C#</span>
+          </li>
+          <li class="position-relative bg-green" data-height="52%">
+            <span class="position-absolute w-100">SQL</span>
+          </li>
+          <li class="position-relative bg-green" data-height="42%">
+            <span class="position-absolute w-100">JavaScript</span>
+          </li>
+          <li class="position-relative bg-green" data-height="42%">
+            <span class="position-absolute w-100">HTML/CSS</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+
+  <script type="text/javascript" src="scripts.js"></script>
+
+</html>
