@@ -16,6 +16,10 @@
   .chart-levels li {
     padding: 15px 10px 15px 0;
   }
+
+  .canvas {
+    background: var(--green);
+  }
 }
 
 body {
@@ -76,6 +80,14 @@ button {
   font-size: 2.5rem;
 }
 
+.canvas {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+}
+
 .contact {
   bottom: 20px;
   right: 20px;
@@ -91,7 +103,7 @@ button {
 }
 
 .skills-close {
-  margin: 20px;
+  margin: 30px;
   top: 0;
   right: 0;
 }
@@ -240,6 +252,10 @@ button {
 
 .text-center {
   text-align: center;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-black {
