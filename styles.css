@@ -4,6 +4,7 @@
   --red: #e21838;
   --green: #32a852;
   --dkgreen: #00701e;
+  --dkdkgreen: #003c10;
   --transition-delay: 0.85s;
   --transition-delay-step: 0.3s;
 }
@@ -54,7 +55,7 @@ button {
 
 .page-header {
   padding: 20px;
-  border-bottom: 1px solid #00701e;
+  border-bottom: 1px solid #003c10;
 }
 
 .page-header li:not(:last-child) {
@@ -283,5 +284,9 @@ button {
 }
 
 .bg-dkgreen {
-  background: var(--dkgreen)
+  background: var(--dkgreen);
+}
+
+.bg-dkdkgreen {
+  background: var(--dkdkgreen);
 }
