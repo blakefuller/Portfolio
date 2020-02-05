@@ -3,30 +3,35 @@
   <head>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="img/dev.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono&display=swap" rel="stylesheet">
   </head>
 
   <body class="position-fixed d-flex flex-column text-white bg-green">
-    <header class="page-header bg-dkdkgreen">
+    <header class="page-header bg-dkdkgreen open-sans">
       <nav class="d-flex justify-content-between">
         <a href="https://blakefuller.dev/" class="logo">blake fuller</a>
         <ul>
           <li>
-            <img src="img/dev.png" alt="skills" class="small-icon">
-            <a id="skills" href="">skills</a>
+            <!-- <img src="img/dev.png" alt="skills" class="small-icon">
+            <a id="skills" href="">skills</a> -->
           </li>
           <li>
-            <img src="img/github.png" alt="github" class="small-icon">
-            <a href="https://github.com/blakefuller">github</a>
+            <div class="logo-wrapper">
+              <img src="img/github.png" alt="github" class="small-icon">
+              <a href="https://github.com/blakefuller">github</a>
+            </div>
           </li>
           <li>
-            <img src="img/linkedin.png" alt="linkedin" class="small-icon">
-            <a href="http://linkedin.com/in/blakefuller">linkedin</a>
+            <div class="logo-wrapper">
+              <img src="img/linkedin.png" alt="linkedin" class="small-icon">
+              <a href="http://linkedin.com/in/blakefuller">linkedin</a>
+            </div>
           </li>
         </ul>
       </nav>
     </header>
     <div id="animation" class=""></div>
-    <div class="position-absolute text-left heading">
+    <div class="position-absolute text-left heading roboto-mono">
       <h1 class="position-relative heading">> my name is blake</h1>
       <h1 class="position-relative heading">> I write code sometimes</h1>
       <h1 class="position-relative heading">> <span id="cursor">_</span></h1>
@@ -68,7 +73,6 @@
   </body>
 
   <script type="text/javascript" src="js/index.js"></script>
-
   <script src="js/three.r92.min.js"></script>
   <script src="js/vanta.net.min.js"></script>
   <script>

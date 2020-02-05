@@ -74,6 +74,11 @@ button {
   height: 30px;
 }
 
+.logo-wrapper {
+  display: grid;
+  grid-template-columns: 50px 50px;
+}
+
 .heading {
   top: 50%;
   left: 50%;
@@ -289,4 +294,12 @@ button {
 
 .bg-dkdkgreen {
   background: var(--dkdkgreen);
+}
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.roboto-mono {
+  font-family: 'Roboto Mono', monospace;
 }
