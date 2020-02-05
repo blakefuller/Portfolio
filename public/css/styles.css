@@ -71,12 +71,12 @@ button {
 .small-icon {
   max-width: 50px;
   /* width: 30px; */
-  height: 30px;
+  height: 20px;
 }
 
 .logo-wrapper {
   display: grid;
-  grid-template-columns: 50px 50px;
+  grid-template-columns: 30px 50px;
 }
 
 .heading {
