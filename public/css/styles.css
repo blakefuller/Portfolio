@@ -7,6 +7,25 @@
   --dkdkgreen: #003c10;
   --transition-delay: 0.85s;
   --transition-delay-step: 0.3s;
+
+  /* from the nord color scheme
+  https://github.com/arcticicestudio/nord/blob/develop/src/nord.css */
+  --nord0: #2e3440;
+  --nord1: #3b4252;
+  --nord2: #434c5e;
+  --nord3: #4c566a;
+  --nord4: #d8dee9;
+  --nord5: #e5e9f0;
+  --nord6: #eceff4;
+  --nord7: #8fbcbb;
+  --nord8: #88c0d0;
+  --nord9: #81a1c1;
+  --nord10: #5e81ac;
+  --nord11: #bf616a;
+  --nord12: #d08770;
+  --nord13: #ebcb8b;
+  --nord14: #a3be8c;
+  --nord15: #b48ead;
 }
 
 @media screen and (max-width: 600px) {
@@ -55,7 +74,7 @@ button {
 
 .page-header {
   padding: 20px;
-  border-bottom: 1px solid #003c10;
+  border-bottom: 1px solid var(--nord1);
 }
 
 .page-header li:not(:last-child) {
@@ -265,23 +284,19 @@ button {
 }
 
 .text-black {
-  color: var(--black);
+  color: var(--nord2);
 }
 
 .text-white {
-  color: var(--white);
+  color: var(--nord4);
 }
 
 .bg-black {
-  background: var(--black);
+  background: var(--nord2);
 }
 
 .bg-white {
-  background: var(--white);
-}
-
-.bg-red {
-  background: var(--red);
+  background: var(--nord4);
 }
 
 .bg-green {
@@ -294,6 +309,10 @@ button {
 
 .bg-dkdkgreen {
   background: var(--dkdkgreen);
+}
+
+.bg-dkgrey {
+  background: var(--nord3);
 }
 
 .open-sans {
