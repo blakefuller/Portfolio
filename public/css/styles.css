@@ -315,6 +315,10 @@ button {
   background: var(--nord3);
 }
 
+.bg-dkdkgrey {
+  background: var(--nord0);
+}
+
 .open-sans {
   font-family: 'Open Sans', sans-serif;
 }
